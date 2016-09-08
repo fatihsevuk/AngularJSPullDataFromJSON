@@ -1,0 +1,62 @@
+[
+
+  {
+
+    "ad":"Linus Torvalds",
+    "dogumTarihi":1969,
+    "ulke":"Finlandiya",
+    "resimUrl":"resimler/linus.jpg"
+
+  },
+
+  {
+
+    "ad":"Steve Jobs",
+    "dogumTarihi":1955,
+    "ulke":"ABD",
+    "resimUrl":"resimler/steve.jpg"
+
+  },
+
+  {
+
+    "ad":"Dennis Ritchie",
+    "dogumTarihi":1941,
+    "ulke":"ABD",
+    "resimUrl":"resimler/dennis.jpg"
+
+  },
+
+  {
+
+    "ad":"Alan Turing",
+    "dogumTarihi":1912,
+    "ulke":"İngiltere",
+    "resimUrl":"resimler/alan.jpg"
+
+  },
+
+  {
+
+    "ad":"James Gosling",
+    "dogumTarihi":1955,
+    "ulke":"Kanada",
+    "resimUrl":"resimler/james.jpg"
+
+  },
+  {
+
+    "ad":"Richard Stallman",
+    "dogumTarihi":1953,
+    "ulke":"ABD",
+    "resimUrl":"resimler/richard.jpg"
+
+  }
+
+
+
+
+
+
+
+]

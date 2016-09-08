@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+<head>
+    <script data-require="angular.js@1.5.8" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" charset="UTF-8"></script>
+</head>
+
+<body>
+<h1>Coding Masters...</h1>
+
+<div ng-app="kisiApp" ng-controller="kisiCtrl">
+
+    <p>Arama:</p><input type="text" ng-model="test" /><br>
+    <p>Sırala:</p>
+    <select ng-model="order">
+        <option value="ad">Ada Göre</option>
+        <option value="dogumTarihi">Yaşa Göre</option>
+        <option value="ulke">Ülkeye Göre</option>
+    </select>
+
+    <ul>
+
+
+
+        <li ng-repeat="kisi in kisiler |filter:test | orderBy:order">
+
+            <img ng-src="{{kisi.resimUrl}}" alt="{{kisi.ad}}" />
+            <br>
+            Ad:{{kisi.ad}}<br>
+            Doğum Tarihi:{{kisi.dogumTarihi}}<br>
+            Ülke:{{kisi.ulke}}<br>
+
+            <hr>
+
+
+        </li>
+
+    </ul>
+
+
+</div>
+
+</body>
+
+</html>
